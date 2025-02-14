@@ -1,0 +1,17 @@
+osint--{35.695,139.655}
+
+stegno 1--FLAG{6uW@h@Ti.??}
+
+stegno 2--FLAG{DIBANG...IIT}
+
+forensics--FLAG{J@ldi_W@h@_s3_h@t00<:+}
+
+rev 1--FLAG{th3_tru3_f4c3}
+
+crypto--FLAG{5eRp3nt1nE?%^/}
+
+rev 2--FLAG{Ah_5h1t!_H3r3_w3_g0_ag@1n**}
+
+stegno 3--FLAG{T3n4c1ty_4nd_P4tr10t1sm_L3ad_70_Fr33d0m}
+
+

@@ -1,0 +1,51 @@
+### CTF Challenge: Independence Day Heist
+
+*Storyline:*
+
+On the day of independence, an infiltrator plants a bomb and steals important e-documents. Our brave army captures the infiltrator and discovers that the bomb is hidden somewhere. Among the infiltrator's belongings, they find some photos and a pen drive. The mission is twofold: find and defuse the bomb, and recover the stolen documents.
+
+---
+
+*Challenge 1: Find the Bomb*
+
+1. *OSINT Challenge:*
+   - *Task:* One of the photos received from the infiltrator contains clues to find the geo-coordinates of the bomb's location.
+   - *Flag:* Obtain the coordinates from the photo.
+
+2. *Steganography Challenge 1:*
+   - *Task:* Another photo hides the name of the city where the bomb is located.
+   - *Flag:* Extract the city's name from the photo.
+
+3. *Steganography Challenge 2:*
+   - *Task:* The city is too large to search blindly. A third photo hides the name of the building where the bomb is hidden.
+   - *Flag:* Extract the building's name from the photo.
+
+4. *Forensics Challenge:*
+   - *Task:* You have located the bomb but must defuse it. An audio file contains a recording of the infiltrator's conversation with the bomb supplier.
+   - *Flag:* Extract the necessary information from the audio file to defuse the bomb.
+
+---
+
+*Challenge 2: Recover the Stolen Documents*
+
+1. *Reverse Engineering Challenge 1:*
+   - *Task:* A passkey is required to open the pen drive, and it is hidden in a provided file.
+   - *Flag:* Find the passkey and open the pen drive.
+
+2. *Cryptography Challenge:*
+   - *Task:* The opened pen drive contains information indicating that the files were sent to an unknown person. A text file provides clues to this person's location.
+   - *Flag:* Decode the location from the text file.
+
+3. *Reverse Engineering Challenge 2:*
+   - *Task:* Upon reaching the location, the police find a house locked with an encrypted lock. A file contains the information needed to decrypt the lock.
+   - *Flag:* Decrypt the lock and open the door.
+
+4. *Steganography Challenge 3:*
+   - *Task:* The final task is to breach the computer security and retrieve all stolen files. The passkey to access the computer is hidden in a provided file.
+   - *Flag:* Extract the passkey, breach the computer, and recover the files.
+
+---
+
+*Objective:*
+
+Participants must complete each challenge to retrieve flags that will help defuse the bomb and recover the stolen documents. Each flag represents a step closer to saving the day. Good luck, and may you succeed in this critical mission!
